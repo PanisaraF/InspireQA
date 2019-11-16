@@ -81,7 +81,7 @@ public class QAtest {
 
 
     @AfterMethod
-    public void tearDown(){
+    public void teardown(){
 
         driver.quit();
     }
